@@ -323,8 +323,6 @@ java -cp out:gson-2.13.2.jar Main
 
 ## 🔍 Technical Highlights
 
-**For resume/interview discussions:**
-
 - **Zero ML frameworks** — the entire neural network (initialization, forward pass, mutation, serialization) is built from first principles in ~100 lines of Java
 - **Real-time rendering at ~60 FPS** — Java Swing `Timer` drives a custom game loop with `Graphics2D` transforms for smooth camera follow
 - **Temporal activation smoothing** — the visualizer uses a low-pass filter (`SMOOTHING = 0.2`) on connection activations to produce fluid, non-flickering glow animations
